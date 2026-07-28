@@ -2,4 +2,4 @@
   "Importable contract for gpu/clear.")
 
 (def manifest
-  {:schema "kotoba.capability.repository.v1", :capability/version 1, :capability/dependencies #{}, :capability/imports #{:gpu-clear}, :authority "kotoba-lang/kotoba-core-contracts", :capability/default-policy :autonomous, :capability/artifact {:format :wasm-component, :digest-required? true, :signature-required? true}, :capability/radicle-rid nil, :capability/repository "kotoba-lang/capability-gpu-clear", :capability/id "gpu/clear", :capability/effects #{:device-write}, :capability/provider-status :contract-only})
+  {:schema "kotoba.capability.repository.v1", :capability/version 1, :capability/dependencies #{}, :capability/imports #{:gpu-clear}, :authority "kotoba-lang/kotoba-core-contracts", :capability/default-policy :autonomous, :capability/artifact {:format :wasm-component, :digest-required? true, :signature-required? true}, :capability/radicle-rid "rad:z32P2Gc2pvSXCqdGEiTS4c3PMwfbY", :capability/repository "kotoba-lang/capability-gpu-clear", :capability/id "gpu/clear", :capability/effects #{:device-write}, :capability/provider-status :contract-only})
